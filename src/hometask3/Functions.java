@@ -26,6 +26,8 @@ public class Functions {
         return l * w;
     }
 
+    
+
     public static boolean trains(int v1, int v2) {
         if (v1 >= v2) {
             System.out.println("Trains won't collide");
