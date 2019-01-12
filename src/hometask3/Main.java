@@ -27,8 +27,8 @@ public class Main {
 
         );
 
-        Functions.trains(5, 9);
-        Functions.trains(9, 9);
+        Functions.trains(4, 9);
+        Functions.trains(8, 8);
         Functions.trains(47, 35);
         System.out.println(
 

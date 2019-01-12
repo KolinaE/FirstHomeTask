@@ -26,16 +26,19 @@ public class Functions {
         return l * w;
     }
 
-    
+
 
     public static boolean trains(int v1, int v2) {
-        if (v1 >= v2) {
-            System.out.println("Trains won't collide");
-            return true;
-        } else {
-            System.out.println("Trains will collide");
-            return false;
-        }
+       int t1, t2;
+       t1 = 4 / v1;
+       t2 = 6 / v2;
+       if (t1 <= t2) {
+           System.out.println("The trains won't collide");
+           return true;
+       } else {
+           System.out.println("The trains will collide");
+           return false;
+       }
 
     }
 
