@@ -17,22 +17,5 @@ public class Calculations {
         System.out.println("4. The result of this calculation is " + fourthResult);
 
 
-
-
-        if(isNumberEven(8461)) {
-            System.out.println("Число является чётным");
-        }else {
-            System.out.println("Число является нечётным");
-        }
-    }
-
-
-    public static boolean isNumberEven(int x) {
-        int result = x % 2;
-        if(result == 0) {
-            return true;
-        }else {
-            return false;
-        }
     }
 }
